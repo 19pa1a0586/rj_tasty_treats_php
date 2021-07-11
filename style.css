@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.main-container{
+    background-color: #efefef;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: white;
+    min-height: 300px;
+    max-height: 100%;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+    padding: 20px 35px;
+    overflow-y: auto;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 25px;
+}
+
+.form-container form input[type="text"], .form-container form input[type="email"], .form-container form input[type="password"]{
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    outline: none;
+}
+
+.form-container form input[type="submit"]{
+    font-size: 16px;
+    background-color: #4285f4;
+    color: white;
+    width: 88px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form-container a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    /* color: black; */
+}
+
+.form-container .header{
+    padding: 20px 0;
+}
+
+.form-container .header h3{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    margin: 0;
+    padding-top: 16px;
+    color: #000;
+}
+
+.form-container .header span {
+    font-size: 14px;
+}
