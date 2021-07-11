@@ -60,7 +60,7 @@
             // echo 'searched'; 
         }
 
-        echo "connected";
+//         echo "connected";
     }
     catch(Exception $e){
         die("Not Connected : " . mysqli_connect_error());
